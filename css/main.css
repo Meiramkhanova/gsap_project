@@ -1,0 +1,212 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: Londrina Solid A;
+	src: url(/fonts/Londrina_Solid/LondrinaSolid-Regular.ttf);
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+#main{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(279deg, #FF8200 8%, #FF9100 12%, #FF8200 17%, #FF6400 22%, #FF6000 33%, #FF6300 36%, #FF6D00 44%, #FF7600 51%, #FF6D00 61%, #FFA500 75%);
+}
+
+nav{
+	position: fixed;
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0vw 10vw;
+	z-index: 100;
+}
+
+nav a, i{
+	text-decoration: none;
+	font-size: 1vw;
+	color: #fff;
+}
+
+nav i{
+	font-size: 1.5vw;
+}
+
+.center-nav{
+	display: flex;
+	gap: 3vw;
+}
+
+.first{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(279deg, #FF8200 8%, #FF9100 12%, #FF8200 17%, #FF6400 22%, #FF6000 33%, #FF6300 36%, #FF6D00 44%, #FF7600 51%, #FF6D00 61%, #FFA500 75%);
+}
+
+.first h1{
+	font-size: 21vw;
+	font-family: Londrina Solid A;
+	color: #fff;
+}
+
+#leaf{
+	position: absolute;
+	top:14%;
+	left: 3%;
+	will-change: transform;
+	transition:  .75s cubic-bezier(.075, 0.5, 0, 1);
+	transform: rotate(50deg);
+	width: 18%;
+}
+
+#leaf2{
+	position: absolute;
+	width: 12%;
+	top: 65%;
+	left: 80%;
+	transition: .75s cubic-bezier(.075, 0.5, 0, 1);
+	transform: rotate(-100deg);
+}
+
+#coconoutleaf{
+	position: absolute;
+	width: 20%;
+	top: 10%;
+	right: 0;
+}
+
+#fuseTea{
+	position: absolute;
+	width: 36%;
+	z-index: 2;
+	will-change: tranform;
+	transition:  .75s cubic-bezier(.075, 0.5, 0, 1);
+}
+
+#orange-cut{
+	position: absolute;
+	width: 13%;
+	top: 10%;
+	left: 35%;
+	will-change: transform;
+	transition:  .75s cubic-bezier(.075, 0.5, 0, 1);
+	z-index: 1;
+}
+
+#orange{
+	position: absolute;
+	width: 18%;
+	z-index: 3;
+	will-change: transform;
+	transition:  .75s cubic-bezier(.075, 0.5, 0, 1);
+	top: 55%;
+	right: 30%;
+}
+
+.second{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(101deg, rgba(242.04, 211.67, 52.24, 0.90) 6%, rgba(245.41, 160.95, 10.77, 0.91) 23%, rgba(245.41, 160.95, 10.77, 0.91) 40%, #F59D02 75%, rgba(237.72, 242.04, 26.02, 0.78) 100%)}
+
+.left-side , .right-side{
+	width: 50%;
+	height: 100%;
+	gap: 5vh;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.left-side svg{
+	margin-top: 50vh;
+	color: #9B4A1B;
+	width: 90%;
+	transform: rotateX(80deg);
+}
+
+.right-side h1{
+	color: #fff;
+	font-size: 5vw;
+}
+
+.right-side p{
+	color: #fff;
+	font-size: 1vw;
+	width: 90%;
+}
+
+.third{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5vw;
+	background: linear-gradient(279deg, #FF8200 8%, #FF9100 12%, #FF8200 17%, #FF6400 22%, #FF6000 33%, #FF6300 36%, #FF6D00 44%, #FF7600 51%, #FF6D00 61%, #FFA500 75%);
+}
+
+.card{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2vh;
+	width: 25vw;
+	height: 70vh;
+	margin-top: 10vh;
+	border-radius: 20px;
+	background-color: #fcf9f4;
+}
+
+.card h1{
+	font-size: 3vw;
+	margin-top: 46vh;
+}
+
+.card button{
+	font-size: 1vw;
+	padding: 1vw 2vw;
+	border-radius: 50px;
+	color: #fff;
+	background-color: rgb(255,149,0);
+	border: none;
+}
+
+.lemon{
+	top: -30%;
+	position: absolute;
+	left: 50%;
+	width: 25vw;
+	transform: translate(-50%, 0%);
+}
+
+.fuseTeaGreen{
+	position: absolute;
+	top: -10%;
+	width: 114%;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+
+.fuseTeaYellow{
+	position: absolute;
+	top: -10%;
+	width: 114%;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
